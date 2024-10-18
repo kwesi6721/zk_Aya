@@ -1,0 +1,29 @@
+{
+  "issuer": "Twitter",
+  "desc": "Joined Twitter in 2006",
+  "website": "https://www.x.com",
+  "APIs": [
+    {
+      "host": "x.com",
+      "intercept": {
+        "url": "i/api/graphql/BQ6xjFU6Mgm-WhEP3OiT9w/UserByScreenName",
+        "method": "GET"
+      },
+      "assert": [
+        {
+          "key": "data|user|result|legacy|created_at",
+          "value": "2006",
+          "operation": "contain"
+        }
+      ]
+    }
+  ],
+  "HRCondition": [
+    "Twitter First Movers"
+  ],
+  "tips": {
+    "message": "When you successfully log in, Go to the your profile then  please click the 'Start' button to initiate the verification process."
+  },
+  "category": "Social",
+  "id": "0xa3bd499173ee4d9391e1408f3103c147"
+}
