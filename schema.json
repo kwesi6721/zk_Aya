@@ -15,7 +15,8 @@
           "value": "2006",
           "operation": "contain"
         }
-      ]
+      ],
+      "nullifier": "data|user|result|id"
     }
   ],
   "HRCondition": [
@@ -25,5 +26,5 @@
     "message": "When you successfully log in, Go to the your profile then  please click the 'Start' button to initiate the verification process."
   },
   "category": "Social",
-  "id": "0xa3bd499173ee4d9391e1408f3103c147"
+  "id": "0xcde512df0f304ba38149c16e4f636de1"
 }
