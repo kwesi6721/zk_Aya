@@ -12,7 +12,7 @@
       "assert": [
         {
           "key": "data|user|result|legacy|created_at",
-          "value": "2006",
+          "value": "2016",
           "operation": "contain"
         }
       ],
