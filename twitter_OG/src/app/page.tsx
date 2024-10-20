@@ -44,7 +44,7 @@ export default function Home() {
 
       setFollowed(true);
     } catch (err) {
-      alert(JSON.stringify(err));
+      alert("There was an error prooving you joined in 2006);
       console.log("error", err);
     }
   };
